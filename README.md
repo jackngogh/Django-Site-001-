@@ -14,4 +14,41 @@
 
 - Django 2.1.7
 - pillow
+## commands
 
+- Start project
+
+```shell
+django-admin startprojects config .
+```
+
+
+
+- Run server
+
+```shell
+python manage.py runserver <ip:port>
+``` 
+
+- Migration
+
+```shell
+python manage.py makemigration
+python manage.py migrate
+```
+
+- Create superuser
+
+```shell
+python manage.py createsuperuser
+<username>
+<email>
+<password>
+<confirm password> 
+```
+
+- Create a New app
+
+```shell
+python manage.py startapp core
+```
