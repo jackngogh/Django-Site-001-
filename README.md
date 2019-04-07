@@ -4,7 +4,7 @@
 
 ### Global Environment
 
-- Python 3.7.2
+- Python 3.7.3
 - Virtualenv 6.4.3
 - pylint
 - autopep8
@@ -12,7 +12,7 @@
 
 ### Virtual Environment
 
-- Django 2.1.7
+- Django 2.2
 - pillow
 ## commands
 
