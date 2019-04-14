@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html>
+{% extends "base.html" %}
 
-<head>
-    <title>Site 001 - Welcome</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+{% block head_title %}
+Welcome
+{% endblock head_title %}Welcome
 
-<body>
-    <h1>Index</h1>
-</body>
-
-</html>
+{% block main_contents %}
+<h2>Home Index</h2>
+{% endblock main_contents %}

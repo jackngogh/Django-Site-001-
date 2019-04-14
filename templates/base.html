@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Django Blog - {% block head_title %}Base{% endblock head_title %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+
+</head>
+
+<body>
+    <ul>
+        <li><a href="{% url 'index'%}">Home</a></li>
+        <li><a href="{% url 'about'%}">About</a></li>
+        <li><a href="{% url 'contact'%}">Contact</a></li>
+    </ul>
+
+    {% block main_contents %}
+    {% endblock main_contents %}
+</body>
+
+</html>
