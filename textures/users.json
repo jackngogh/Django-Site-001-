@@ -1,0 +1,20 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$SqqLasTwkDqv$5qFJMHoC9aG3GfKVrMaGw4RjeNdYxGxqm5w2AMW8Yq8=",
+        "last_login": "2019-03-17T19:49:06Z",
+        "is_superuser": true,
+        "username": "jackngo",
+        "first_name": "Jack",
+        "last_name": "Ngo",
+        "email": "jackngo@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2019-03-17T19:47:30Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
