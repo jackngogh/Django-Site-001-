@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+Login
+{% endblock head_title %}
+
+{% block main_contents %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <form method='POST'> {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom md-4">Log in</legend>
+                    {{ form }}
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-info" type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock main_contents %}
