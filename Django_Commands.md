@@ -144,6 +144,12 @@ python manage.py test users/
 python manage.py collectstatic
 ```
 
+## Collect Static Files excluding Directories
+
+```shell
+python manage.py collectstatic --noinput -i scss -i admin
+```
+
 ## Access Python Shell
 
 ```shell
